@@ -1,0 +1,142 @@
+.section_2_main{
+    height: 100%;
+    width: 100%;
+    /* background-color: aquamarine; */
+    padding: 1% 12%;
+}
+
+.section_2_top h2{
+    font-size: 48px;
+    font-weight: 700;
+    color: #0E1F51;
+}
+
+.section_2_top p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #0E1F51;
+    margin-top: 15px;
+}
+
+
+.section_2_bottom{
+    margin: 55px 0px;
+}
+
+.left_rectangle{
+    height: 590px;
+    width: 471px;
+    border: 16px solid #FF3E54;
+    position: relative !important;
+}
+
+.upper_rectangle{
+    height: 490px;
+    width: 1085px;
+    /* background-color: rgb(186, 186, 186); */
+    background-color: white;
+    position: absolute !important;
+    z-index: 9999;
+    top: 30px;
+    left: 50px;
+    padding: 25px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.upper_rectangle_left h2{
+font-size: 36px;
+font-weight: 700;
+color: #202020;
+line-height: 45px;
+}
+.upper_rectangle_left{
+    width: 60%;
+    /* background-color: #656565; */
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 3% 4%;
+/* gap: 40px; */
+}
+
+.name_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.name_section_left{
+    height: 30px;
+   width: 30px;
+   background-color: #FF3E54;
+}
+
+.testimonial_name{
+    font-size: 18px;
+    font-weight: 800;
+    color: #202020;
+}
+
+.testimonial_role{
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+}
+
+.next_previous_buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.previous_btn{
+    border: 3px solid #FF3E54;
+    border-radius: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+}
+.previous{
+    color: black;
+}
+
+.next_btn{
+   background-color: #FF3E54;
+    border-radius: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.upper_rectangle_right{
+    width: 40%;
+    height: 100%;
+    /* background-color: #28428d; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial_image img{
+    padding: 10px 10px 10px 0px;
+}
+.testimonial_image img{
+    height: 370px;
+    width: 348px;
+    border-top: 16px solid #FF3E54;
+    border-right: 16px solid #FF3E54;
+    border-bottom: 16px solid #FF3E54;
+    object-fit: cover;
+}

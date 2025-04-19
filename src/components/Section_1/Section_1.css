@@ -1,0 +1,94 @@
+.section_1_main{
+  height: 80vh;
+  width: 100%;
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+  margin: 35px 0px;
+}
+
+.section_1_heading{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    color: #0E1F51;
+}
+
+.section_1_cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.card{
+    height: 334px;
+    width: 263px;
+    background-color: #F7F7F7;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+    padding: 25px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+
+}
+.card:hover{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.card_top_left{
+    height: 80px;
+    width: 80px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_top_left svg , img{
+    height: 49.67px;
+    width: 50px;
+    color: #FF3E54;
+}
+
+
+.card_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.card_top_right span{
+font-size: 48px;
+font-weight: 800;
+font-family: "Raleway", sans-serif;
+color: rgb(210, 210, 210);
+}
+
+.card_middle{
+    margin: 40px 0px;
+}
+.card_middle h3{
+    font-size: 18px;
+    font-weight: 800;
+    color: #0E1F51;
+}
+
+.line{
+    height: 6px;
+    width: 140px;
+    background-color: #FF3E54;
+    border-radius: 15px;
+    margin: 15px 0px;
+}
+
+.card_middle p{
+font-size: 16px;
+font-weight: 400;
+line-height: 25px;    
+}

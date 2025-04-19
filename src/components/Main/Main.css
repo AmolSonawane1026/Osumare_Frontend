@@ -1,0 +1,246 @@
+.main{
+    height: 50vh;
+    width: 100%;
+    background-color: #F7F7FB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main_heading{
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    color: #170F49;
+}
+
+.main_buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.main_btn{
+    height: 56px;
+    width: 182px;
+    border-radius: 50px;
+    border: none;
+    outline:  none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+.get_started{
+background-color: #FF3E54;
+color: white;
+font-size: 12px;
+font-size: 18px;
+    font-weight: 700;
+}
+
+.learn_more{
+    border: 1px solid #FF3E54;
+    background-color: white;
+    color: #FF3E54;
+}
+
+
+.main_para{
+    line-height: 25px;
+    color: #6F6C90;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.above_main{
+    height: 100%;
+    width: 100%;
+    background-color: #F7F7FB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+    gap: 15px;
+}
+
+
+.above_main_left{
+    width: 774px;
+    height: 642.68px;
+    background-color:#FF3E54 ;
+    border-radius: 18px;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.above_main_left h1{
+    font-size: 98.87px;
+    font-weight: 400;
+    color: white;
+}
+.organize_heading{
+    color: #c9c9c9;
+}
+.above_main_left p{
+    font-size: 19.77px;
+    font-weight: 400;
+    color: white;
+    line-height: 25px;
+}
+
+.main_left_buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.main_left_btn_discover{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 178.73px;
+    height: 53.96px;
+    font-size: 14.83px;
+    font-weight: 600;
+    border-radius: 50px;
+    background-color: #ff5b6e;
+    color: white;
+}
+
+
+.main_left_btn{
+    border: none;
+    outline: none;
+    background-color: #F7F7FB;
+    cursor: pointer;
+    width: 178.73px;
+    height: 53.96px;
+    font-size: 14.83px;
+    font-weight: 600;
+    border-radius: 50px;
+}
+
+.above_main_right{
+    width: 379px;
+    height: 642.68px;
+    /* background-color: #6F6C90; */
+    background: url("../../assets//Images/above_main_img.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 18px;
+    overflow: hidden;
+   
+
+}
+
+
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    padding: 40px 30px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+}
+
+.top h2{
+    color: white;
+    font-size: 39px;
+    font-weight: 700;
+}
+
+.white_gradient {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 40%;
+    width: 100%;
+    background: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+    pointer-events: none;
+  }
+
+  .right_bottom h2 ,p{
+    color: black;
+  }
+
+  .right_bottom h2{
+    font-size: 19.77px;
+    font-weight: 400;
+  }
+  .right_bottom p{
+    font-size: 13.18px;
+    font-weight: 400;
+    color: #6F6C90;    ;
+    
+  }
+
+.right_bottom{
+    z-index: 9999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+  .right_bottom_sub{
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 6.60px;
+  }
+
+  .right_middle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .left_icon{
+    color: white;
+    font-weight: 700;
+cursor: pointer;
+  }
+  .right_icon{
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  .play_btn{
+    cursor: pointer;
+  }
+
+
+  .main_bottom{
+     height: 15vh;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: #F7F7FB;
+     gap: 80px;
+  }
+
+  .icon{
+    cursor: pointer;
+  }
