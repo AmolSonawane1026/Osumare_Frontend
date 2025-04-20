@@ -2,7 +2,7 @@ import React from 'react'
 import "./Navbar.css"
 import Logo from "../../assets/Logo/Logo.png"
 
-const Navbar = () => {
+const Navbar = ({ onOpen }) => {
   return (
    <>
     <nav className='navbar'>
@@ -22,7 +22,7 @@ const Navbar = () => {
 
         <div className="buttons">
             <button className="btn log_in">Log In</button>
-            <button className="btn sign_up">Sign Up</button>
+            <button className="btn sign_up" onClick={onOpen}>Sign Up</button>
         </div>
     </nav>
    </>

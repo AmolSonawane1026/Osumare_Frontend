@@ -2,10 +2,11 @@ import React from "react";
 import "./Main.css";
 import { ChevronLeft, ChevronRight, CirclePlay } from "lucide-react";
 
-const Main = () => {
+const Main = ({ onOpen }) => {
   return (
     <>
-      <div className="main">
+     <main>
+     <div className="main">
         <h1 className="main_heading">
           Simplify Your Life with Our <br /> Todo App
         </h1>
@@ -17,7 +18,7 @@ const Main = () => {
         </p>
 
         <div className="main_buttons">
-          <button className="main_btn get_started">Get Started</button>
+          <button className="main_btn get_started" onClick={onOpen}>Get Started</button>
           <button className="main_btn learn_more">Learn More</button>
         </div>
       </div>
@@ -39,7 +40,7 @@ const Main = () => {
           </p>
 
           <div className="main_left_buttons">
-            <button className="main_left_btn">Get Started Today</button>
+            <button className="main_left_btn" onClick={onOpen}>Get Started Today</button>
             <button className="main_left_btn_discover">
               Discover Features
             </button>
@@ -187,6 +188,7 @@ const Main = () => {
           </svg>
         </div>
       </div>
+     </main>
     </>
   );
 };
