@@ -29,3 +29,28 @@
     cursor: pointer;
   }
   
+
+
+  /* ============================== */
+
+  @media (max-width: 768px) {
+    .table_main th,
+    .table_main td {
+      font-size: 13px;
+      padding: 10px;
+    }
+  }
+  
+  @media (max-width: 568px) {
+    .table_main th,
+    .table_main td {
+      font-size: 12px;
+      padding: 8px;
+      white-space: nowrap;
+    }
+  
+    .table_container {
+      margin: 20px 10px;
+    }
+  }
+  

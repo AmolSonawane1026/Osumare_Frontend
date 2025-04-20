@@ -3,6 +3,10 @@ import "./Section_3.css";
 import Uncover_Image from "../../assets/Images/uncover_image.jpg"
 
 
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
+
+
 
 const Section_3 = ({ onOpen }) => {
   return (
@@ -11,7 +15,13 @@ const Section_3 = ({ onOpen }) => {
 <div className="section_3_sub">
     
 <div className="section_3_left">
-<img src={Uncover_Image} alt="Uncover Image" />
+
+<LazyLoadImage
+   src={Uncover_Image} alt="Uncover Image"
+    effect="blur"
+  />
+
+
 </div>
 
 <div className="section_3_right">

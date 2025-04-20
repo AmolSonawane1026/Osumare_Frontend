@@ -3,6 +3,10 @@ import "./Navbar.css"
 import Logo from "../../assets/Logo/Logo.png"
 import { Menu, X } from 'lucide-react'
 
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
+
+
 const Navbar = ({ onOpen }) => {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
 
@@ -14,7 +18,11 @@ const Navbar = ({ onOpen }) => {
     <nav className='navbar'>
 
         <div className='logo'>
-            <img src={Logo} alt="Logo" />
+           
+            <LazyLoadImage
+               src={Logo} alt="Logo"
+                effect="blur"
+              />
         </div>
 
         <div className={`middle ${isMenuOpen ? 'show' : ''}`}>

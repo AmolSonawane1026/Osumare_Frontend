@@ -2,13 +2,22 @@ import React from "react";
 import "./Footer.css";
 import Logo from "../../assets/Logo/logo.png";
 
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
+
+
 const Footer = () => {
   return (
     <footer className="footer_main">
       <div className="footer_sub">
         <div className="footer_left">
           <div className="footer_logo">
-            <img src={Logo} alt="Logo" />
+            
+
+             <LazyLoadImage
+                          src={Logo} alt="Logo"
+                            effect="blur"
+                          />
           </div>
           <p>
             Subscribe to our newsletter for the latest features and updates
