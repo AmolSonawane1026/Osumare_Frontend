@@ -36,7 +36,7 @@
     /* background-color: rgb(186, 186, 186); */
     background-color: white;
     position: absolute !important;
-    z-index: 9999;
+    z-index: 99;
     top: 30px;
     left: 50px;
     padding: 25px 30px;
@@ -139,4 +139,131 @@ line-height: 45px;
     border-right: 16px solid #FF3E54;
     border-bottom: 16px solid #FF3E54;
     object-fit: cover;
+}
+
+
+
+
+/* \======================================== */
+
+
+@media (max-width: 768px) {
+    .section_2_main {
+        padding: 2% 5%;
+    }
+
+    .section_2_top h2 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .section_2_top p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .section_2_bottom {
+        margin: 40px 0;
+    }
+
+    .upper_rectangle {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        top: 0;
+        left: 0;
+        padding: 20px;
+        position: relative !important;
+        
+    }
+
+    .upper_rectangle_left {
+        width: 100%;
+        padding: 20px 0;
+        align-items: flex-start;
+        
+    }
+
+    .upper_rectangle_left h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .upper_rectangle_right {
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .testimonial_image img {
+        width: 100%;
+        height: auto;
+        border-top: 7px solid #FF3E54;
+        border-right: 7px solid #FF3E54;
+        border-bottom: 7px solid #FF3E54;
+    }
+
+    .left_rectangle {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .name_section {
+        flex-direction: row;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .next_previous_buttons {
+        justify-content: flex-start;
+        gap: 15px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 568px) {
+    .section_2_top h2 {
+        font-size: 26px;
+    }
+
+    .section_2_top p {
+        font-size: 14px;
+    }
+
+    .upper_rectangle_left h2 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .name_section {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .testimonial_name {
+        font-size: 16px;
+    }
+
+    .testimonial_role {
+        font-size: 14px;
+    }
+
+    .next_previous_buttons {
+        gap: 10px;
+    }
+
+    .previous_btn,
+    .next_btn {
+        padding: 8px;
+    }
+
+    .testimonial_image img {
+        height: auto;
+        width: 100%;
+    }
+
+    .left_rectangle {
+        border: 7px solid #FF3E54;
+    }
 }

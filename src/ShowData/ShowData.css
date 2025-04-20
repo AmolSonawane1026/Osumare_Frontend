@@ -1,0 +1,56 @@
+.table_container {
+    max-width: 1169px;
+    margin: 30px auto;
+    overflow-x: auto;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  .table_main {
+    width: 100%;
+  }
+  
+  .table_main thead {
+    background: #f2f2f2;
+  }
+  
+  .table_main th,
+  .table_main td {
+    text-align: left;
+    padding: 14px;
+    font-size: 14px;
+    border-bottom: 1px solid #E1CFFF;
+  }
+  
+  .table_main input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+  }
+  
+
+
+  /* ============================== */
+
+  @media (max-width: 768px) {
+    .table_main th,
+    .table_main td {
+      font-size: 13px;
+      padding: 10px;
+    }
+  }
+  
+  @media (max-width: 568px) {
+    .table_main th,
+    .table_main td {
+      font-size: 12px;
+      padding: 8px;
+      white-space: nowrap;
+    }
+  
+    .table_container {
+      margin: 20px 10px;
+    }
+  }
+  

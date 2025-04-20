@@ -3,6 +3,9 @@ import "./Section_2.css";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import Testimonial_Image from "../../assets/Images/testimonial_image.jpg"
 
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
+
 
 const Section_2 = () => {
   return (
@@ -55,7 +58,11 @@ imagine my day without it."</h2>
 <div className="upper_rectangle_right">
     
 <div className="testimonial_image">
-    <img src={Testimonial_Image} alt="Sherri Cronin" />
+<LazyLoadImage
+    src={Testimonial_Image}
+    alt="Sherri Cronin"
+    effect="blur"
+  />
 </div>
 
 

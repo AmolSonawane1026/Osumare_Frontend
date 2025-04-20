@@ -92,3 +92,47 @@ font-size: 16px;
 font-weight: 400;
 line-height: 25px;    
 }
+
+
+
+
+/* =================================================== */
+
+@media screen and (max-width:768px){
+    .section_1_heading{
+        font-size: 30px;
+       
+    }
+
+    .section_1_main{
+        height: 100%;
+      }
+
+    
+.section_1_cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+}
+
+
+/* =========================================== */
+
+@media screen and (max-width:568px){
+    .section_1_heading{
+        font-size: 23px;
+       line-height: 35px;
+    }
+
+
+
+    
+.card{
+    height: 314px;
+    width: 263px;
+}
+}
