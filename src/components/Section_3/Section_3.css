@@ -70,3 +70,76 @@ cursor: pointer;
 .learn_more{
 border: 1px solid #FF3E54;
 }
+
+
+
+
+
+/* ========================== */
+
+@media screen and (max-width: 768px) {
+    .section_3_main {
+        height: auto;
+        padding: 30px 15px;
+    }
+
+    .section_3_sub {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .section_3_left,
+    .section_3_right {
+        width: 100%;
+        height: auto;
+    }
+
+    .section_3_left img {
+        width: 100%;
+        height: auto;
+    }
+
+    .section_3_right {
+        padding: 20px 15px;
+        gap: 20px;
+        align-items: flex-start;
+    }
+
+    .section_3_right h2 {
+        font-size: 32px;
+    }
+
+    .section_3_right p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .section_3_buttons {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 15px;
+    }
+
+    .section_3_btn {
+        width: auto;
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .section_3_right h2 {
+        font-size: 26px;
+    }
+
+    .section_3_right p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .section_3_btn {
+        font-size: 13px;
+        padding: 8px 16px;
+    }
+}
