@@ -8,18 +8,18 @@ import Footer from './components/Footer/Footer'
 
 import PopupForm from './components/PopUpForm/PopUpForm'
 import ThankYou from './components/ThankYouMessage/Thank_You_Message'
+import ShowData from './ShowData/ShowData'
 
 const App = () => {
-
   const [showForm, setShowForm] = useState(false)
   const [submitted, setSubmitted] = useState(false)
-  const [formData, setFormData] = useState(null)
+  const [formDataList, setFormDataList] = useState([])
 
   const handleOpen = () => setShowForm(true)
   const handleClose = () => setShowForm(false)
 
   const handleSubmit = (data) => {
-    setFormData(data)
+    setFormDataList(prev => [...prev, data])
     setSubmitted(true)
     setShowForm(false)
     setTimeout(() => setSubmitted(false), 4000)
@@ -33,6 +33,8 @@ const App = () => {
    <Section_1/>
    <Section_2/>
    <Section_3 onOpen={handleOpen}/>
+
+   {formDataList.length > 0 && <ShowData dataList={formDataList} />}
    <Footer/>
 
    {showForm && <PopupForm onClose={handleClose} onSubmit={handleSubmit} />}
